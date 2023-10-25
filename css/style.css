@@ -223,11 +223,10 @@ body {
   }
   
   .mob-menu-item {
-  }
-  
-  .mob-menu-item:not(:last-child) {
     margin-bottom: 40px;
   }
+  
+  
   
   .mob-menu-link {
     color: var(--NAVY-BLUE, #2e2f42);
@@ -418,6 +417,7 @@ body {
   
   .team {
     background: var(--CLOUD, #f4f4fd);
+    padding: 96px 0;
   }
   .team-title {
     color: #2e2f42;
@@ -428,7 +428,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     padding-bottom: 72px;
-    padding-top: 72px;
+    
   }
   .team-list {
     display: flex;
